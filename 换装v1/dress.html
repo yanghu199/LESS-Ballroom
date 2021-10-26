@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>three.js webgl - FBX loader</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+	<link type="text/css" rel="stylesheet" href="./main.css">
+	<style>
+		.clicked {
+			cursor: pointer;
+			position: fixed;
+			z-index: 1000;
+		}
+
+		.person {
+			left: 30px;
+			bottom: 30px;
+			height: 200px;
+		}
+
+		.home {
+			top: 20px;
+			right: 20px;
+			height: 38px;
+		}
+
+		.done {
+			left: 45%;
+			bottom: 20px;
+		}
+
+		.tex-bg {
+			position: fixed;
+			left: 5%;
+			height: 80%;
+			top: 10%;
+		}
+
+		.dress-bg {
+			position: fixed;
+			right: 5%;
+			height: 80%;
+			top: 10%;
+		}
+
+		.dress-1 {
+			right: 14%;
+			height: 27%;
+			top: 10%;
+		}
+
+		.dress-2 {
+			right: 14%;
+			height: 27%;
+			top: 35%;
+		}
+
+		.dress-3 {
+			right: 14%;
+			height: 27%;
+			top: 60%;
+		}
+
+		.dress-4 {
+			right: 8%;
+			height: 27%;
+			top: 24%;
+		}
+
+		.dress-5 {
+			right: 8%;
+			height: 27%;
+			top: 50%;
+		}
+
+		.dress-6 {
+			right: 21%;
+			height: 27%;
+			top: 24%;
+		}
+
+		.dress-7 {
+			right: 19%;
+			height: 27%;
+			top: 50%;
+		}
+
+		.collage-1 {
+			left: 13%;
+			width: 10%;
+			top: 15%;
+		}
+
+		.collage-2 {
+			left: 7%;
+			width: 10%;
+			top: 29%;
+		}
+
+		.collage-3 {
+			left: 20%;
+			width: 8%;
+			top: 25%;
+		}
+
+		.collage-4 {
+			left: 20%;
+			width: 9%;
+			top: 49%;
+		}
+
+		.collage-5 {
+			left: 7%;
+			width: 8%;
+			top: 50%;
+		}
+
+		.collage-6 {
+			left: 19%;
+			width: 6%;
+			top: 64%;
+		}
+
+		.collage-7 {
+			left: 13%;
+			width: 6%;
+			top: 62%;
+		}
+
+		.collage-8 {
+			left: 13%;
+			width: 10%;
+			top: 46%;
+		}
+	</style>
+</head>
+
+<body>
+	<div>
+		<img class='clicked person' src="fbx/image/person.png" id="personId">
+		<img class='clicked home' src="fbx/image/home.png" id="homeId">
+		<img class='clicked done' src="fbx/image/done.png">
+		<img class='tex-bg' src="fbx/image/tex-bg.png">
+		<img class='clicked collage-1' src="fbx/image/collage1.png" id="texture1">
+		<img class='clicked collage-2' src="fbx/image/collage2.png" id="texture2">
+		<img class='clicked collage-3' src="fbx/image/collage3.png" id="texture3">
+		<img class='clicked collage-4' src="fbx/image/collage4.png" id="texture4">
+		<img class='clicked collage-5' src="fbx/image/collage5.png" id="texture5">
+		<img class='clicked collage-6' src="fbx/image/collage6.png" id="texture6">
+		<img class='clicked collage-7' src="fbx/image/collage7.png" id="texture7">
+		<img class='clicked collage-8' src="fbx/image/collage8.png" id="texture8">
+
+
+
+		<img class='dress-bg' src="fbx/image/dress-bg.png">
+		<img class='clicked dress-1' src="fbx/image/dress1.png" id='dress1'>
+		<img class='clicked dress-2' src="fbx/image/dress2.png" id='dress2'>
+		<img class='clicked dress-3' src="fbx/image/dress3.png" id='dress3'>
+		<img class='clicked dress-4' src="fbx/image/dress4.png" id='dress4'>
+		<img class='clicked dress-5' src="fbx/image/dress5.png" id='dress5'>
+		<img class='clicked dress-6' src="fbx/image/dress6.png" id='dress6'>
+		<img class='clicked dress-7' src="fbx/image/dress7.png" id='dress7'>
+	</div>
+
+	<script type="module">
+
+		import * as THREE from './build/three.module.js';
+		import { TrackballControls } from './jsm/controls/TrackballControls.js';
+		import { FBXLoader } from './jsm/loader/FBXLoader.js';
+
+		var container, stats, controls;
+		var camera, scene, renderer, light;
+
+		var clock = new THREE.Clock();
+
+		var mixer;
+
+		var fbxLoader = new FBXLoader();
+		var textureLoader = new THREE.TextureLoader()
+
+		var currentScene = 'inner'
+
+		init();
+		animate();
+
+		function init() {
+
+			container = document.createElement('div');
+			document.body.appendChild(container);
+
+			camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 0.01, 10000);
+			window.camera = camera
+			// camera.up.set(0, 1, 0)
+			camera.position.set(3.3, 66.6, 80.59);
+
+			scene = new THREE.Scene();
+			scene.background = new THREE.Color(0xa0a0a0);
+			// scene.add(new THREE.AmbientLight(0xffffff));
+
+			var grid = new THREE.GridHelper(2000, 20, 0x000000, 0x000000);
+			grid.material.opacity = 0.2;
+			grid.material.transparent = true;
+			scene.add(grid);
+
+			renderer = new THREE.WebGLRenderer({ antialias: true });
+			renderer.setPixelRatio(window.devicePixelRatio);
+			renderer.setSize(window.innerWidth, window.innerHeight);
+			renderer.shadowMap.enabled = true;
+			container.appendChild(renderer.domElement);
+
+			controls = new TrackballControls(camera, renderer.domElement)
+			controls.rotateSpeed = 1.0
+			controls.zoomSpeed = 1
+			controls.panSpeed = 1
+
+			loadBgModel()
+
+			window.addEventListener('resize', onWindowResize, false);
+			for (let i = 1; i <= 7; i++) {
+				document.getElementById('dress' + i).addEventListener("click", changeDress)
+			}
+			for (let i = 1; i <= 8; i++) {
+				document.getElementById('texture' + i).addEventListener("click", changeImage)
+			}
+
+			document.getElementById('homeId').addEventListener("click", function () {
+				currentScene = 'outer'
+				this.style.display = 'none'
+				document.getElementById('personId').style.display = 'block'
+			})
+
+			document.getElementById('personId').addEventListener("click", function () {
+				currentScene = 'inner'
+				this.style.display = 'none'
+				document.getElementById('homeId').style.display = 'block'
+			})
+
+
+			window.scene = scene
+		}
+
+		function loadModel(modelId, clothId) {
+
+		}
+		function loadBgModel() {
+			fbxLoader.load('fbx/ballroom-position.fbx', function (object) {
+				scene.add(object);
+			});
+		}
+
+		function changeImage() {
+			let id = this.id
+			scene.traverse(function (child) {
+				if (child.name == 'dress') {
+					child.children[0].material.map = textureLoader.load('fbx/dress/' + id + '.jpg')
+					child.children[0].material.needsUpdate = true
+				}
+			});
+		}
+
+		function changeDress() {
+			scene.traverse(function (child) {
+				if (child.name == 'dress') scene.remove(child)
+			})
+
+			fbxLoader.load('fbx/dress/' + this.id + '.fbx', function (object) {
+				object.name = 'dress'
+				scene.add(object);
+			});
+		}
+
+		function onWindowResize() {
+
+			camera.aspect = window.innerWidth / window.innerHeight;
+			camera.updateProjectionMatrix();
+
+			renderer.setSize(window.innerWidth, window.innerHeight);
+
+		}
+
+		//
+
+		function animate() {
+
+			requestAnimationFrame(animate);
+
+			var delta = clock.getDelta();
+
+			if (mixer) mixer.update(delta);
+
+			renderer.render(scene, camera);
+			controls.update()
+
+		}
+
+	</script>
+
+</body>
+
+</html>
