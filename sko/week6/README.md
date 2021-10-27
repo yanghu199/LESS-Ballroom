@@ -39,3 +39,5 @@ Events and walkthroughs are planned throughout the whole opening period, encoura
 For 24 hours, both sonically and visually generative work, conceived as an expansion of the artist’s centrepiece of the show, will shape minimalist forms and aggregations unfolding in a loop of synaesthetic perpetual mutations. Visitors are invited to participate in the event by contributing a sound, thus extending the idea of collectivity that lies at the core of the exhibition’ purpose.
 
 Currently, the value of freedom fostered by the digital world is severely challenged by the impossibility of fully experiencing the world in physical proximity with the multiple others. Virtuality has invaded our daily lives and emotional sphere, delineating a dimension of mediated and filtered exchanges. How our interiority and identities are exposed, communicated and shared fades into perception. Nevertheless, in such a landscape, dwells the potential of activating alternative forms of consciousness and creating communities, FEELINGS takes a step in this direction.
+
+link=> http://www.synthesis.gallery
