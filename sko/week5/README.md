@@ -20,9 +20,7 @@ Band practise - Dentist Killer
 When started to built the basic information for our own band, 'dentist killer' was just jumped in my mind (maybe because I watched the Korean drama 'Hell is Other People' recently and the hero was a dentist and a serial killer). Dentist killer is a band that focus on dark trap music and experimental electronic, the natural fear to dentist and the tooth extraction is where our inspiration comes from. We use fear and agony as the guideline of our creation of exploring the extremity of emotinal body and sensory organs.
 
 ![w5-collage-groupwork](https://user-images.githubusercontent.com/68723373/139029339-06a2ce5e-496a-402f-b4d6-e3d6e805df69.png)
-
 ![w5-groupwork](https://user-images.githubusercontent.com/68723373/139029371-13ec6d0b-b449-403e-aa11-1ffdd2c5ba7a.png)
-
 ![dentist cover](https://user-images.githubusercontent.com/68723373/139029391-9c0b31e0-8c81-4940-a882-a103165e26ab.png)
 
 Basic on the horror sense of the band, I created some posters and album covers that visualized the painful of the tooth extraction and imitated the funny text from meme.
@@ -38,17 +36,11 @@ Visual reference
 
 Tool: Three.js
 Function: interactive website, provide the free wander in a virtual world with first-person perspective and control with mouse click and keyboard.
-Samples: The BLOB of Im/Possible Images
+Samples: 
 
-Imagine you could obtain an 'impossible' image of any object or phenomenon that you think is important, with no limits on spatial, temporal, energy, signal/noise or cost resolutions. What image would you create? (the answer can be a hypothetical image of course!)
+The BLOB of Im/Possible Images
 
-This was the question I asked every scientist I spoke to during my Arts at CERN/Collide Barcelona residency. In the BLOB I am presenting some of the insights this research has opened up to me.
-
-The BLOB (Binary Large OBject) gives a home to the collection of Im/Possible images that all together illustrate the concept of the impossible image and the relationships between affordance, resolution and compromise.
-
-As different Axes of Affordance (X,Y,Z and α) cut the BLOB, they define what is possible to resolve, and what images are compromised, or in other words, will never be rendered. While normally these compromised images would never find their way to our eyes, the hypothetical realms of the BLOB offer pasture to these impossible renders.
-
-Via the open call you can submit your own Im/Possible image. These images might be considered for implementation and exhibition.
+Imagine you could obtain an 'impossible' image of any object or phenomenon that you think is important, with no limits on spatial, temporal, energy, signal/noise or cost resolutions. What image would you create? (the answer can be a hypothetical image of course!)This was the question I asked every scientist I spoke to during my Arts at CERN/Collide Barcelona residency. In the BLOB I am presenting some of the insights this research has opened up to me. The BLOB (Binary Large OBject) gives a home to the collection of Im/Possible images that all together illustrate the concept of the impossible image and the relationships between affordance, resolution and compromise. As different Axes of Affordance (X,Y,Z and α) cut the BLOB, they define what is possible to resolve, and what images are compromised, or in other words, will never be rendered. While normally these compromised images would never find their way to our eyes, the hypothetical realms of the BLOB offer pasture to these impossible renders. Via the open call you can submit your own Im/Possible image. These images might be considered for implementation and exhibition.
 
 The BLOB of Im/Possible Images is made in commission for Haus der elektronischen Künste Basel (HEK)
 
