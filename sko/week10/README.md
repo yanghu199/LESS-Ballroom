@@ -27,7 +27,7 @@ The original version of the building kept gaving me a strong ambivalent feeling 
 ![WechatIMG543](https://user-images.githubusercontent.com/68723373/139626715-a6b1ee60-768f-4877-9945-4b146795d5b3.jpeg)
 ![WechatIMG546](https://user-images.githubusercontent.com/68723373/139626720-80d6ca2e-6bb8-4db2-9d25-15186785c116.jpeg)
 
-There was a problem kept confused me : lighting. Because the simplified structure, lighting became more important - to gave this simple structure color and tone. Luckily Christina had many experience with this situation during her works in fashion photography, she taught me some basic lighting knowledge and creted a more complex color combination, and suddenly, the building looked totally different!
+There was a problem kept confused me : lighting. Because the simplified structure, lighting became more important - to gave this simple structure color and tone. Luckily Christina had many experience with this situation during her works in fashion photography, she taught me some basic lighting knowledge and created a more complex color combination, and suddenly, the building looked totally different!
 
 ![WechatIMG557](https://user-images.githubusercontent.com/68723373/139628069-03bae06d-887f-43e5-a195-5be659b92b2f.jpeg)
 ![WechatIMG558](https://user-images.githubusercontent.com/68723373/139628072-5917332c-c875-4440-b91c-045a2501b452.jpeg)
