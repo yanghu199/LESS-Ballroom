@@ -13,4 +13,23 @@ https://user-images.githubusercontent.com/68723373/139436878-b15d7d36-2cf4-46b7-
 
 After written a simple storyline I started to build a prototype of the medieval ballroom, I searched lots of references of the real medieval history building but still struggled with the visual. Two voice fought in my mind ---- be more realistic? or more abstract? more surreal? or even they didn't have to stay in a specific 'ballroom'? What's the interior design style and what kind of furnitures and decorations would be appropriate with our storyline and characteristic? 
 
+![WechatIMG537](https://user-images.githubusercontent.com/68723373/139589343-1ffa7210-31be-4515-981e-21612ed68d2f.jpeg)
+![WechatIMG539](https://user-images.githubusercontent.com/68723373/139589346-62af7da2-665a-4400-a5a7-4df9419091f0.jpeg)
 
+
+ballroom - buildin version 2
+
+![WechatIMG540](https://user-images.githubusercontent.com/68723373/139625466-337fc901-32a8-439b-94b7-c6b7c55f3be5.jpeg)
+
+The original version of the building kept gaving me a strong ambivalent feeling (maybe was the realistic style of the building and the abstract human body? or was the inapposite color palette of the interior design...) Therefore I decided to remake another new one, with a more abstract form in order to coordinated the style of our human body. (it was a risky decision because we didn't have much time, but I thought it could improve the whole effect)
+
+![WechatIMG542](https://user-images.githubusercontent.com/68723373/139626712-251681db-c8ae-4f84-9d4f-b5a949768259.jpeg)
+![WechatIMG543](https://user-images.githubusercontent.com/68723373/139626715-a6b1ee60-768f-4877-9945-4b146795d5b3.jpeg)
+![WechatIMG546](https://user-images.githubusercontent.com/68723373/139626720-80d6ca2e-6bb8-4db2-9d25-15186785c116.jpeg)
+
+There was a problem kept confused me : lighting. Because the simplified structure, lighting became more important - to gave this simple structure color and tone. Luckily Christina had many experience with this situation during her works in fashion photography, she taught me some basic lighting knowledge and creted a more complex color combination, and suddenly, the building looked totally different!
+
+![WechatIMG557](https://user-images.githubusercontent.com/68723373/139628069-03bae06d-887f-43e5-a195-5be659b92b2f.jpeg)
+![WechatIMG558](https://user-images.githubusercontent.com/68723373/139628072-5917332c-c875-4440-b91c-045a2501b452.jpeg)
+![WechatIMG559](https://user-images.githubusercontent.com/68723373/139628075-6b7c8086-8596-4061-8d05-2cbc9cb2c56e.jpeg)
+![WechatIMG560](https://user-images.githubusercontent.com/68723373/139628080-493ab289-1612-4d33-b0eb-bb5b7edb1f36.jpeg)
