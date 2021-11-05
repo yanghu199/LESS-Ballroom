@@ -81,7 +81,11 @@ function draw() {
 
 }
 
-Text based works
-
 Image collection digital version
+
+<img width="796" alt="截屏2021-11-06 上午1 18 20" src="https://user-images.githubusercontent.com/68723373/140551946-fbf1d26a-5707-4110-9897-9e899ee6dce4.png">
+<img width="805" alt="截屏2021-11-06 上午1 18 43" src="https://user-images.githubusercontent.com/68723373/140551975-3f23c133-2509-42ab-832a-719c01b85154.png">
+<img width="793" alt="截屏2021-11-06 上午1 19 00" src="https://user-images.githubusercontent.com/68723373/140552024-9638eebf-3962-4e03-bdcd-8d53050b25e0.png">
+<img width="718" alt="截屏2021-11-06 上午1 19 20" src="https://user-images.githubusercontent.com/68723373/140552157-1b2e0663-74ed-4b5d-85a7-8cfea6ee3e30.png">
+
 
