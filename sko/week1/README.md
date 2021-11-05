@@ -52,6 +52,8 @@ Mix up the paintings and drawings from the different pieces of music and try to 
 
 Which of all the responses do they find most interesting? Have them discuss their opinions.
 
+![w1collage_画板 1](https://user-images.githubusercontent.com/68723373/140548681-a3053113-bb10-46f0-bbec-49fcb585f017.png)
 
+I followed the instruction of the music part with random music player. I depicted the pictures by followed the melody or the beat or directly depicted the words.
 
 
